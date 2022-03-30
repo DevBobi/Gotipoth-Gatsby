@@ -3,8 +3,8 @@ import React from 'react'
 export const SingleCard = () => {
     return (
         <>
-            <div className="h-full bg-white px-8 py-14 border shadow-xl rounded overflow-hidden text-left">
-                <div className='mt-10 mb-5'>
+            <div className="h-full bg-white px-8 py-14 border rounded overflow-hidden text-left">
+                <div className='mt-10 mb-10'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 text-pink-500"
@@ -27,7 +27,7 @@ export const SingleCard = () => {
                     <p className="leading-relaxed mb-20">Launch scaleable cloud server in minutes</p>
                 </div>
 
-                <div>
+                <div className=''>
                     <p className="leading-relaxed pb-2">starts at <span className='text-2xl text-primary font-medium'>$0.007 USD</span> /hour</p>
                     <button className="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                         View Cloud Pricing

@@ -9,7 +9,7 @@ export const Card = () => {
                     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2">
                         {productsData.map(product => (
                             <a
-                                class="block p-6 transition border shadow-xl rounded bg-white"
+                                class="block p-6 transition border  rounded bg-white"
                                 href="/services/digital-campaigns"
                             >
                                 <svg
