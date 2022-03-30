@@ -1,6 +1,7 @@
 import React from 'react'
 
 export const CallToAction = () => {
+
     return (
         <div>
             <div
@@ -14,7 +15,7 @@ export const CallToAction = () => {
                         {/* middle */}
 
                         <div>
-                            <ul class="mb-8 space-y-2">
+                            <ul class="mb-8 mt-5 space-y-2">
                                 <li class="flex items-center">
                                     <div class="mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
