@@ -60,7 +60,7 @@ export const CallToAction = () => {
                                     <p className="font-medium text-left text-gray-300">User friend cloud control panel with API</p>
                                 </li>
                             </ul>
-                            <div className='flex pt-10'>
+                            <div className='flex pt-10 sm:hidden xs:hidden '>
                                 <div className='pr-12'>
                                     <button type='button' className="inline-block border border-indigo-600 px-6 py-3 text-sm font-medium text-left text-white bg-indigo-600">
                                         Sign Up Now
