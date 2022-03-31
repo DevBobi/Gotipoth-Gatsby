@@ -61,7 +61,7 @@ export const CallToAction = () => {
                                 </li>
                             </ul>
                             <div>
-                                <a className="mr-12 inline-block px-6 py-3 text-sm font-medium text-white bg-indigo-600" href="/download">
+                                <a className="mr-12 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600" href="/download">
                                     Sign Up Now
                                 </a>
                                 <a className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border" href="/download">
