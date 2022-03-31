@@ -4,12 +4,12 @@ import productsData from '../data/productsData'
 export const Card = () => {
     return (
         <div>
-            <section class="text-gray-600 bg-lightBlue px-2">
+            <section class="text-gray-600 lg:bg-lightBlue md:bg-lightBlue sm:bg-white px-2">
                 <div class="max-w-screen-xl px-4 mx-auto lg:px-3">
                     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2">
                         {productsData.map(product => (
                             <a
-                                class="block p-6 transition border  rounded bg-white"
+                                class="block p-6 transition border rounded lg:bg-white sm:bg-gray-200"
                                 href="/services/digital-campaigns"
                             >
                                 <svg

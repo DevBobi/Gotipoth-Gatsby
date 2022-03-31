@@ -7,7 +7,7 @@ export const ProductLayout = () => {
     return (
         <div>
             {/* Sidebar */}
-            <div className=" md:flex bg-lightBlue pb-20">
+            <div className=" md:flex bg-lightBlue md:bg-lightBlue sm:bg-white pb-20">
                 <SideNav />
                 {/* All cards will be here */}
                 <div class="flex flex-wrap justify-center my-5">

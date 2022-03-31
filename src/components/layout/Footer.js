@@ -1,37 +1,45 @@
 import React from 'react';
+import OurClients from '../OurClients';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
-    <div className="flex -mx-3">
-      <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+  <footer class="bg-gray-50">
+    <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-12 sm:px-6 lg:px-8">
+
+
+      <div class="justify-items-center grid grid-cols-1 gap-8 pt-6 border-t border-gray-100 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div className='px-10'>
+          <p class="font-medium">
+            Highly scalable
+          </p>
+
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <p class="hover:opacity-75" href="">Scale from one to thousands of cloud instances in minutes</p>
+            <a href="">Button1</a>
+          </nav>
+        </div>
+        <div className='px-10'>
+          <p class="font-medium">
+            Better performance
+          </p>
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <p class="hover:opacity-75" href="">Experience faster IOPS Speed and ultra low latency network</p>
+            <a href="">Button1</a>
+          </nav>
+        </div>
+        <div className='px-10'>
+          <p class="font-medium">
+            Save big
+          </p>
+
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <p class="hover:opacity-75" href="">Substantial savings compared to other public clouds</p>
+            <a href="">Button1</a>
+          </nav>
+        </div>
+
       </div>
-      <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Important Links</h2>
-        <ul className="mt-4 leading-loose">
-          <li>
-            <a href="https://codebushi.com">Terms &amp; Conditions</a>
-          </li>
-          <li>
-            <a href="https://codebushi.com">Privacy Policy</a>
-          </li>
-        </ul>
-      </div>
-      <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Social Media</h2>
-        <ul className="mt-4 leading-loose">
-          <li>
-            <a href="https://dev.to/changoman">Dev.to</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
-          </li>
-          <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
-          </li>
-        </ul>
-      </div>
+      <OurClients />
     </div>
   </footer>
 );
