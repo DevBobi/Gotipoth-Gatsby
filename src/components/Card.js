@@ -4,17 +4,17 @@ import productsData from '../data/productsData'
 export const Card = () => {
     return (
         <div>
-            <section class="text-gray-600 lg:bg-lightBlue md:bg-lightBlue sm:bg-white xs:bg-white px-2">
-                <div class="max-w-screen-xl px-4 mx-auto lg:px-3">
-                    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2">
+            <section className="text-gray-600 lg:bg-lightBlue md:bg-white sm:bg-white xs:bg-white px-2">
+                <div className="max-w-screen-xl px-4 mx-auto lg:px-3">
+                    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2">
                         {productsData.map(product => (
                             <a
-                                class="block p-6 transition border rounded lg:bg-white sm:bg-gray-200 xs:bg-gray-200"
+                                className="block p-6 transition border rounded lg:bg-white sm:bg-gray-200 xs:bg-gray-200"
                                 href="/services/digital-campaigns"
                             >
                                 <svg
                                     xmlns={product?.logo}
-                                    class="w-10 h-10 text-blue-500"
+                                    className="w-10 h-10 text-blue-500"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -31,9 +31,9 @@ export const Card = () => {
                                     />
                                 </svg>
 
-                                <h3 class="mt-3 text-lg font-semibold text-black">{product?.title}</h3>
+                                <h3 className="mt-3 text-lg font-semibold text-black">{product?.title}</h3>
 
-                                <p class="mt-1 text-sm text-gray-700">
+                                <p className="mt-1 text-sm text-gray-700">
                                     {product?.desc}
                                 </p>
                             </a>

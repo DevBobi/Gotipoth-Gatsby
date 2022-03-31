@@ -15,60 +15,60 @@ export const CallToAction = () => {
                         {/* middle */}
 
                         <div>
-                            <ul class="mb-8 mt-5 space-y-2">
-                                <li class="flex items-center">
-                                    <div class="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                            <ul className="mb-8 mt-5 space-y-2">
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
 
                                     </div>
-                                    <p class="font-medium text-gray-300">Transparent and better pricing</p>
+                                    <p className="font-medium text-gray-300">Transparent and better pricing</p>
                                 </li>
-                                <li class="flex items-center">
-                                    <div class="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
 
                                     </div>
-                                    <p class="font-medium text-gray-300">24/7 support available</p>
+                                    <p className="font-medium text-gray-300">24/7 support available</p>
                                 </li>
-                                <li class="flex items-center">
-                                    <div class="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
                                     </div>
-                                    <p class="font-medium text-gray-300">Solution arcitect support for large migration</p>
+                                    <p className="font-medium text-gray-300">Solution arcitect support for large migration</p>
                                 </li>
-                                <li class="flex items-center">
-                                    <div class="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                        </svg>
-
-                                    </div>
-                                    <p class="font-medium text-gray-300">Vast documention & community content</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div class="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
 
                                     </div>
-                                    <p class="font-medium text-gray-300">User friend cloud control panel with API</p>
+                                    <p className="font-medium text-gray-300">Vast documention & community content</p>
+                                </li>
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+
+                                    </div>
+                                    <p className="font-medium text-gray-300">User friend cloud control panel with API</p>
                                 </li>
                             </ul>
                             <div>
-                                <a class="mr-12 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600 rounded hover:scale-110 hover:shadow-xl active:bg-indigo-500 focus:outline-none focus:ring" href="/download">
+                                <a className="mr-12 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600 rounded hover:scale-110 hover:shadow-xl active:bg-indigo-500 focus:outline-none focus:ring" href="/download">
                                     Download
                                 </a>
-                                <a class="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border rounded hover:scale-110 active:bg-indigo-500 focus:outline-none focus:ring" href="/download">
+                                <a className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border rounded hover:scale-110 active:bg-indigo-500 focus:outline-none focus:ring" href="/download">
                                     <span className='pr-2'>
-                                        <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                                        <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                     </span>
                                     <span>Schedule Meeting</span>
                                 </a>
