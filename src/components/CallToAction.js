@@ -61,16 +61,16 @@ export const CallToAction = () => {
                                 </li>
                             </ul>
                             <div>
-                                <a className="mr-12 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600" href="/download">
+                                <button type='button' className="mr-10 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600">
                                     Sign Up Now
-                                </a>
-                                <a className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border" href="/download">
+                                </button>
+                                <button type='button' className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border" >
                                     <span className='pr-2'>
                                         <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                         <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                     </span>
                                     <span>Schedule Meeting</span>
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
