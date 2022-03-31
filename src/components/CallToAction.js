@@ -13,8 +13,8 @@ export const CallToAction = () => {
                             Your Own Cloud
                         </p>
 
-                        <div>
-                            <ul className="mb-10 mt-5 sm:mt-10 xs:mt-10 space-y-2">
+                        <div className="sm:mt-10 xs:mt-10 space-y-2">
+                            <ul>
                                 <li className="flex items-center">
                                     <div className="mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
@@ -60,7 +60,7 @@ export const CallToAction = () => {
                                     <p className="font-medium text-gray-300">User friend cloud control panel with API</p>
                                 </li>
                             </ul>
-                            <div className='flex'>
+                            <div className='flex pt-10'>
                                 <div className='pr-12'>
                                     <button type='button' className="inline-block border border-indigo-600 px-6 py-3 text-sm font-medium text-white bg-indigo-600">
                                         Sign Up Now
