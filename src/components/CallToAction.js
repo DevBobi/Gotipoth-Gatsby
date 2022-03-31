@@ -22,7 +22,7 @@ export const CallToAction = () => {
                                         </svg>
 
                                     </div>
-                                    <p className="font-medium text-gray-300">Transparent and better pricing</p>
+                                    <p className="font-medium text-left text-gray-300">Transparent and better pricing</p>
                                 </li>
                                 <li className="flex items-center">
                                     <div className="mr-3">
@@ -31,7 +31,7 @@ export const CallToAction = () => {
                                         </svg>
 
                                     </div>
-                                    <p className="font-medium text-gray-300">24/7 support available</p>
+                                    <p className="font-medium text-left text-gray-300">24/7 support available</p>
                                 </li>
                                 <li className="flex items-center">
                                     <div className="mr-3">
@@ -39,16 +39,7 @@ export const CallToAction = () => {
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
                                     </div>
-                                    <p className="font-medium text-gray-300">Solution arcitect support for large migration</p>
-                                </li>
-                                <li className="flex items-center">
-                                    <div className="mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                        </svg>
-
-                                    </div>
-                                    <p className="font-medium text-gray-300">Vast documention & community content</p>
+                                    <p className="font-medium text-left text-gray-300">Solution arcitect support for large migration</p>
                                 </li>
                                 <li className="flex items-center">
                                     <div className="mr-3">
@@ -57,12 +48,21 @@ export const CallToAction = () => {
                                         </svg>
 
                                     </div>
-                                    <p className="font-medium text-gray-300">User friend cloud control panel with API</p>
+                                    <p className="font-medium text-left text-gray-300">Vast documention & community content</p>
+                                </li>
+                                <li className="flex items-center">
+                                    <div className="mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+
+                                    </div>
+                                    <p className="font-medium text-left text-gray-300">User friend cloud control panel with API</p>
                                 </li>
                             </ul>
                             <div className='flex pt-10'>
                                 <div className='pr-12'>
-                                    <button type='button' className="inline-block border border-indigo-600 px-6 py-3 text-sm font-medium text-white bg-indigo-600">
+                                    <button type='button' className="inline-block border border-indigo-600 px-6 py-3 text-sm font-medium text-left text-white bg-indigo-600">
                                         Sign Up Now
                                     </button>
                                 </div>

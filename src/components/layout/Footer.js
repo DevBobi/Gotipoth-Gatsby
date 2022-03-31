@@ -27,7 +27,7 @@ const Footer = () => (
             <a href="">Button1</a>
           </nav>
         </div>
-        <div className='pr-10'>
+        <div className='pr-10 xs:px-10'>
           <p className="text-gray-700">
             Save big
           </p>
