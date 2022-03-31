@@ -7,15 +7,14 @@ export const CallToAction = () => {
             <div
                 className=" overflow-hidden text-white lg:grid bg-gradient-to-r from-gray-900 to-blue-700 lg:grid-cols-2 lg:items-center"
             >
-                <div className="p-12 text-center sm:p-16 lg:p-24 lg:text-left ">
-                    <div className="max-w-lg mx-auto lg:ml-0 lg:pt-12">
+                <div className="p-10 text-center sm:p-16 lg:p-24 lg:text-left ">
+                    <div className="max-w-lg mx-auto lg:ml-0 lg:py-10">
                         <p className="text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-3xl font-bold sm:text-4xl">
                             Your Own Cloud
                         </p>
-                        {/* middle */}
 
                         <div>
-                            <ul className="mb-8 mt-5 space-y-2">
+                            <ul className="mb-10 mt-5 sm:mt-10 xs:mt-10 space-y-2">
                                 <li className="flex items-center">
                                     <div className="mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
@@ -62,10 +61,10 @@ export const CallToAction = () => {
                                 </li>
                             </ul>
                             <div>
-                                <a className="mr-12 inline-block px-8 py-3 text-sm font-medium text-white bg-indigo-600 rounded hover:text-black" href="/download">
-                                    Download
+                                <a className="mr-12 inline-block px-6 py-3 text-sm font-medium text-white bg-indigo-600" href="/download">
+                                    Sign Up Now
                                 </a>
-                                <a className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border rounded hover:text-black" href="/download">
+                                <a className="inline-block px-5 py-3 text-sm font-medium text-white bg-inherit border" href="/download">
                                     <span className='pr-2'>
                                         <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                         <img className="inline-block h-5 w-5 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
@@ -77,7 +76,7 @@ export const CallToAction = () => {
                     </div>
                 </div>
 
-                <div className="lg:pt-24">
+                <div className="lg:py-24 sm:pt-20 xs:pt-20">
                     <div className="relative w-full h-64 sm:h-96 lg:h-[500px]">
                         <img
                             className="absolute inset-0 object-cover w-full h-full lg:rounded-tl-3xl"
